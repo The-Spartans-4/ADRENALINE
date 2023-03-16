@@ -4,7 +4,7 @@ import {signUpPost} from "../utils/datafetcher"
 import { Auth } from "../Auth";
 
 import Recaptcha from 'react-recaptcha';
-
+// SIgn Upppppp/..
 export default function Signup(this: any) {
 
   const [email, setEmail] = useState("");
