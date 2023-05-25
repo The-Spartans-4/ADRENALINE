@@ -306,6 +306,7 @@ export default function Planning() {
         populateGantt(rows);
     }
 
+  // The function formats a given date by extracting the month, day, and year and returning a formatted string in the "YYYY-MM-DD" format, or undefined if the input date is undefined.                                      
     function setDefaultDate(d) {
         if (d == undefined) {
             return undefined;
