@@ -2,6 +2,14 @@
  * Template credit: https://material-ui.com/getting-started/templates/
  */
 
+
+/*
+The "Packaging" component is a React component that facilitates box ordering and package dispatching.
+It utilizes Material-UI components, icons, and utility functions to create an interactive user interface.
+The component manages state variables, handles user actions, and renders forms and tables for ordering and dispatching.
+Overall, it provides a streamlined and visually appealing experience for managing packaging processes.
+*/
+
 import React, {useState ,useEffect} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
