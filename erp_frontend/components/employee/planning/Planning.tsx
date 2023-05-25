@@ -1,3 +1,18 @@
+
+/*
+The "Planning" component is a React component that provides task management and visualization functionality.
+It allows users to create, view, edit, and delete tasks. 
+The component includes a list of tasks and a Gantt chart for visualizing task timelines. 
+It utilizes Material-UI components and the "react-gantt-timeline" library for a polished user interface.
+The component fetches task data from a server, formats it, and updates the state variables accordingly. 
+Overall, it offers a comprehensive planning solution for managing tasks and monitoring project progress.
+*/
+
+
+
+
+
+
 import React, { useState, useEffect } from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
