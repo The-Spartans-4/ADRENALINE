@@ -2,6 +2,16 @@
  * Template credit: https://material-ui.com/getting-started/templates/
  */
 
+/**
+
+This component represents a scheduling view that allows users to select a plant,
+view machine scheduling information, and force stop machines if needed.
+It utilizes Material-UI components and handles state using hooks like useState and useEffect.
+The user interface is rendered using JSX elements, with data dynamically populated and
+status determined for each machine. Overall, it provides a convenient and interactive
+scheduling experience within the application.
+*/
+
 import React, {useState ,useEffect} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuItem from '@material-ui/core/MenuItem';
