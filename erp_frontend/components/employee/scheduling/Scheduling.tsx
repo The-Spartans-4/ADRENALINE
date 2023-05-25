@@ -103,6 +103,7 @@ export default function Scheduling() {
 
     //Update machine in the backing to force stop
     // Function to calculate the machine expense amount from the start time, end time and cost per hour of running the machine
+    // The function calculates the machine expense amount and production based on the machine's start time, cost per hour, and production per hour, considering the current time and adjusting for different hours or days.
   function calculateMachineExpenseAmount(machine){
 
     const today = new Date();
