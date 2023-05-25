@@ -10,6 +10,7 @@ It utilizes Material-UI components and handles state using hooks like useState a
 The user interface is rendered using JSX elements, with data dynamically populated and
 status determined for each machine. Overall, it provides a convenient and interactive
 scheduling experience within the application.
+.
 */
 
 import React, {useState ,useEffect} from "react";
