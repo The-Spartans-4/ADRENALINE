@@ -116,6 +116,7 @@ export default function Packaging() {
     }
   })
 
+ // The function handles the ordering of items by incrementing or decrementing the value at the specified key index in the orderData state array.
   function handleOrdering(plus, key){  
     let temp = orderData;
     if (plus){
